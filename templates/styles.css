@@ -1,18 +1,27 @@
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
-  background: #f1f1f1;
-  height: 500px;
-  padding-top: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
+  background-size: 975px;
+  padding-top: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 h1 {
-  font-size: 80px;
+  color:yellow;
+  font-family:  BlinkMacSystemFont;
 }
 
 h3 {
+  color: yellow;
   font-size: 30px;
+  font-family: BlinkMacSystemFont;
+}
+
+h6 {
+  color: rgb(255, 255, 0);
+  font-size: 30px;
+  font-family: BlinkMacSystemFont;
+
 }
 
 /* Giving our navbar some padding and a background color */
@@ -56,6 +65,25 @@ h3 {
 /* Giving the .post element margin on 3 sides */
 .post {
   margin-top: 50px;
-  margin-right: 350px;
-  margin-left: 350px;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+.zoom:hover {
+  opacity: 1;
+  object-position: 0pt;
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.bg-cover {
+  background-attachment: static;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  height: 4200px;
+  padding-top: 20px;
+  background: #40e0d0;
 }
