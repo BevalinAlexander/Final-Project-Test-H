@@ -26,11 +26,11 @@ def NaiveBayes():
 
     return render_template("NaiveBayes.html")
 
-# # create route that renders tableau.html
-# @app.route("/tableau")
-# def tableau():
+# create route that renders tableau.html
+@app.route("/tableau")
+def tableau():
 
-#     return render_template("tableau.html")
+    return render_template("tableau.html")
 
 # # create route that renders dct.html
 # @app.route("/dct")
